@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PeerLearn - Peer Tutoring Marketplace</title>
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <header class="navbar">
+    <div class="logo">
+      <span class="logo-icon">P</span>
+      <span>PeerLearn</span>
+    </div>
+
+    <nav>
+      <a href="#find-tutor">Find a Tutor</a>
+      <a href="#become-tutor">Become a Tutor</a>
+      <a href="#how-it-works">How It Works</a>
+    </nav>
+
+    <div class="nav-actions">
+      <button class="login-btn">Log In</button>
+      <button class="signup-btn">Sign Up</button>
+    </div>
+  </header>
+
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+
+      <div class="badge">
+        🎓 Learn from students. Teach what you know.
+      </div>
+
+      <h1>
+        Learn better with
+        <span>people like you.</span>
+      </h1>
+
+      <p>
+        Connect with talented students and peers who can help you
+        understand difficult subjects, prepare for exams, and reach
+        your academic goals.
+      </p>
+
+      <div class="hero-buttons">
+        <button class="primary-btn">Find a Tutor →</button>
+        <button class="secondary-btn">Become a Tutor</button>
+      </div>
+
+      <div class="trust">
+        <div class="avatars">
+          <div>👩🏻</div>
+          <div>👨🏽</div>
+          <div>👩🏿</div>
+          <div>👨🏻</div>
+        </div>
+
+        <div>
+          <strong>2,500+ students</strong>
+          <small>already learning together</small>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="hero-card">
+
+      <div class="floating-card card-one">
+        <span class="subject-icon blue">📐</span>
+        <div>
+          <strong>Mathematics</strong>
+          <small>24 tutors available</small>
+        </div>
+      </div>
+
+      <div class="main-profile">
+        <div class="profile-image">👩🏻‍💻</div>
+
+        <div class="online-dot"></div>
+
+        <h3>Sarah Johnson</h3>
+        <p>Computer Science • 4.9 ⭐</p>
+
+        <div class="tags">
+          <span>Python</span>
+          <span>Data Structures</span>
+        </div>
+
+        <button class="profile-btn">View Profile</button>
+      </div>
+
+      <div class="floating-card card-two">
+        <span class="subject-icon green">✓</span>
+        <div>
+          <strong>Session Completed</strong>
+          <small>Great job, Alex! 🎉</small>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- Search Section -->
+  <section class="search-section" id="find-tutor">
+    <div class="section-heading">
+      <span>FIND YOUR PERFECT PEER</span>
+      <h2>What do you want to learn?</h2>
+      <p>Search from hundreds of peer tutors across different subjects.</p>
+    </div>
+
+    <div class="search-box">
+      <div class="search-input">
+        <span>🔍</span>
+        <input
+          type="text"
+          placeholder="Search for a subject, skill or topic..."
+        >
+      </div>
+
+      <select>
+        <option>All Subjects</option>
+        <option>Mathematics</option>
+        <option>Computer Science</option>
+        <option>Physics</option>
+        <option>Chemistry</option>
+        <option>Languages</option>
+      </select>
+
+      <button class="primary-btn">Search Tutors</button>
+    </div>
+  </section>
+
+
+  <!-- Popular Subjects -->
+  <section class="subjects">
+    <div class="section-heading">
+      <span>POPULAR SUBJECTS</span>
+      <h2>Learn something new today</h2>
+    </div>
+
+    <div class="subject-grid">
+
+      <div class="subject-card">
+        <div class="subject-card-icon purple">📐</div>
+        <h3>Mathematics</h3>
+        <p>Algebra, Calculus, Statistics</p>
+        <strong>128 tutors →</strong>
+      </div>
+
+      <div class="subject-card">
+        <div class="subject-card-icon blue">💻</div>
+        <h3>Computer Science</h3>
+        <p>Programming, AI, Web Development</p>
+        <strong>215 tutors →</strong>
+      </div>
+
+      <div class="subject-card">
+        <div class="subject-card-icon orange">⚛️</div>
+        <h3>Physics</h3>
+        <p>Mechanics, Thermodynamics, Optics</p>
+        <strong>96 tutors →</strong>
+      </div>
+
+      <div class="subject-card">
+        <div class="subject-card-icon green">🧪</div>
+        <h3>Chemistry</h3>
+        <p>Organic, Inorganic, Physical</p>
+        <strong>87 tutors →</strong>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- How It Works -->
+  <section class="how-it-works" id="how-it-works">
+
+    <div class="section-heading">
+      <span>SIMPLE & EFFECTIVE</span>
+      <h2>How PeerLearn works</h2>
+      <p>Getting help from a peer has never been easier.</p>
+    </div>
+
+    <div class="steps">
+
+      <div class="step">
+        <div class="step-number">01</div>
+        <div class="step-icon">🔎</div>
+        <h3>Find a tutor</h3>
+        <p>
+          Search for students who are experts in the subject
+          you need help with.
+        </p>
+      </div>
+
+      <div class="step">
+        <div class="step-number">02</div>
+        <div class="step-icon">📅</div>
+        <h3>Book a session</h3>
+        <p>
+          Choose a convenient time and book a one-on-one
+          tutoring session.
+        </p>
+      </div>
+
+      <div class="step">
+        <div class="step-number">03</div>
+        <div class="step-icon">🚀</div>
+        <h3>Start learning</h3>
+        <p>
+          Meet online, learn together, and make progress
+          toward your goals.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- Featured Tutors -->
+  <section class="tutors">
+
+    <div class="section-heading">
+      <span>TOP PEER TUTORS</span>
+      <h2>Learn from the best</h2>
+      <p>Meet highly-rated students ready to help you succeed.</p>
+    </div>
+
+    <div class="tutor-grid">
+
+      <div class="tutor-card">
+        <div class="tutor-avatar pink">👩🏻</div>
+        <span class="available">● Available</span>
+
+        <h3>Emily Carter</h3>
+        <p>Mathematics • MIT</p>
+
+        <div class="rating">★★★★★ <span>4.9 (42)</span></div>
+
+        <div class="tutor-info">
+          <span>📚 68 sessions</span>
+          <span>💰 $12/hr</span>
+        </div>
+
+        <button>View Profile</button>
+      </div>
+
+      <div class="tutor-card">
+        <div class="tutor-avatar blue-bg">👨🏽‍💻</div>
+        <span class="available">● Available</span>
+
+        <h3>Daniel Kim</h3>
+        <p>Computer Science • Stanford</p>
+
+        <div class="rating">★★★★★ <span>5.0 (57)</span></div>
+
+        <div class="tutor-info">
+          <span>📚 94 sessions</span>
+          <span>💰 $15/hr</span>
+        </div>
+
+        <button>View Profile</button>
+      </div>
+
+      <div class="tutor-card">
+        <div class="tutor-avatar yellow-bg">👩🏽‍🔬</div>
+        <span class="available">● Available</span>
+
+        <h3>Priya Sharma</h3>
+        <p>Physics • IIT Delhi</p>
+
+        <div class="rating">★★★★★ <span>4.8 (31)</span></div>
+
+        <div class="tutor-info">
+          <span>📚 46 sessions</span>
+          <span>💰 $10/hr</span>
+        </div>
+
+        <button>View Profile</button>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- Become a Tutor -->
+  <section class="tutor-cta" id="become-tutor">
+
+    <div>
+      <span>SHARE WHAT YOU KNOW</span>
+
+      <h2>
+        Turn your knowledge<br>
+        into an opportunity.
+      </h2>
+
+      <p>
+        Help your peers, build your teaching experience,
+        and earn money while doing it.
+      </p>
+
+      <button class="white-btn">Become a Tutor →</button>
+    </div>
+
+    <div class="earnings-card">
+      <div class="earnings-header">
+        <span>This month</span>
+        <span>•••</span>
+      </div>
+
+      <div class="earnings">
+        <small>Your earnings</small>
+        <strong>$486.00</strong>
+      </div>
+
+      <div class="chart">
+        <div style="height: 35%"></div>
+        <div style="height: 50%"></div>
+        <div style="height: 42%"></div>
+        <div style="height: 65%"></div>
+        <div style="height: 55%"></div>
+        <div style="height: 80%"></div>
+        <div style="height: 92%"></div>
+      </div>
+    </div>
+
+  </section>
+
+
+  <!-- Testimonials -->
+  <section class="testimonials">
+
+    <div class="section-heading">
+      <span>STUDENT STORIES</span>
+      <h2>Loved by learners</h2>
+    </div>
+
+    <div class="testimonial-grid">
+
+      <div class="testimonial">
+        <div class="quote">“</div>
+        <p>
+          I finally understood calculus after just two sessions.
+          My tutor explained everything in a way that actually
+          made sense to me.
+        </p>
+
+        <div class="student">
+          <div>👩🏻</div>
+          <span>
+            <strong>Alex Morgan</strong>
+            <small>University Student</small>
+          </span>
+        </div>
+      </div>
+
+      <div class="testimonial">
+        <div class="quote">“</div>
+        <p>
+          PeerLearn helped me find someone who was taking the
+          same course as me. It feels much easier to learn
+          with another student.
+        </p>
+
+        <div class="student">
+          <div>👨🏽</div>
+          <span>
+            <strong>Ryan Lee</strong>
+            <small>Computer Science Student</small>
+          </span>
+        </div>
+      </div>
+
+      <div class="testimonial">
+        <div class="quote">“</div>
+        <p>
+          I've earned extra income while helping people in
+          subjects I'm passionate about. It's been an amazing
+          experience.
+        </p>
+
+        <div class="student">
+          <div>👩🏾‍🎓</div>
+          <span>
+            <strong>Maya Patel</strong>
+            <small>Peer Tutor</small>
+          </span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- Final CTA -->
+  <section class="final-cta">
+    <h2>Ready to learn together?</h2>
+    <p>Join thousands of students building a better way to learn.</p>
+
+    <div>
+      <button class="primary-btn">Find a Tutor →</button>
+      <button class="outline-btn">Create an Account</button>
+    </div>
+  </section>
+
+
+  <!-- Footer -->
+  <footer>
+
+    <div class="footer-brand">
+      <div class="logo">
+        <span class="logo-icon">P</span>
+        <span>PeerLearn</span>
+      </div>
+
+      <p>
+        Learn from peers. Share your knowledge.
+        Grow together.
+      </p>
+    </div>
+
+    <div class="footer-column">
+      <h4>Platform</h4>
+      <a href="#">Find a Tutor</a>
+      <a href="#">Become a Tutor</a>
+      <a href="#">How It Works</a>
+    </div>
+
+    <div class="footer-column">
+      <h4>Company</h4>
+      <a href="#">About Us</a>
+      <a href="#">Careers</a>
+      <a href="#">Contact</a>
+    </div>
+
+    <div class="footer-column">
+      <h4>Support</h4>
+      <a href="#">Help Center</a>
+      <a href="#">Safety</a>
+      <a href="#">Privacy</a>
+    </div>
+
+  </footer>
+
+  <div class="copyright">
+    © 2026 PeerLearn. All rights reserved.
+  </div>
+
+</body>
+</html>
